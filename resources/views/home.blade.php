@@ -10,7 +10,7 @@
 
     <div class="categories-section main-grid-border">
         <div class="container">
-            <h2 class="head">Main Categories</h2>
+            <h2 class="head">My Profile</h2>
             <div class="category-list">
                 <div id="parentVerticalTab">
                     <ul class="resp-tabs-list hor_1">
