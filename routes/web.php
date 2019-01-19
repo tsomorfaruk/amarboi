@@ -20,6 +20,7 @@ Route::get('/buy/{id}', 'buyerController@showAdForm');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/update-profile', 'HomeController@updateProfile');
 Route::get('/users/logout', 'Auth\LoginController@userLogout')->name('user.logout');
 
 Route::prefix('admin')->group(function() {

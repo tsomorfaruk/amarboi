@@ -3,10 +3,8 @@
     Book Store
 @endsection
 @section('mainContent')
-    <div class="main-banner banner text-center">
-        <div class="container">
-            <h1>Sell or Advertise <span class="segment-heading">    anything online </span> with Resale</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+    <div class="main-banner banner text-center" style="min-height: 150px">
+        <div class="container" style="padding-bottom: 20px">
             <a href="{{'/buy'}}">Buy</a>
             <a href="{{'/sell'}}">Sell/Rent</a>
             <a href="post-ad.html">eBooks</a>

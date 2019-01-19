@@ -3,6 +3,12 @@
         <div class="logo">
             <a href="{{'/'}}"><span>Book</span>Store</a>
         </div>
+
+            <div class="buysell">
+                <a class="buysell1" href="{{'/buy'}}">Buy</a>
+                <a href="{{'/sell'}}">Sell/Rent</a>
+                <a href="post-ad.html">eBooks</a>
+            </div>
         <div class="header-right">
                 <!-- Authentication Links -->
                 @guest
