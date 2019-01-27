@@ -7,6 +7,9 @@
     <link href="{{URL::asset('frontEnd/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
     <link rel="stylesheet" href="{{URL::asset('frontEnd/css/flexslider.css')}}" type="text/css" media="screen" />
     <link rel="stylesheet" href="{{URL::asset('frontEnd/css/font-awesome.min.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('frontEnd/css/jquery-ui.theme.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('frontEnd/css/jquery-ui.structure.css')}}" />
+    <link rel="stylesheet" href="{{URL::asset('frontEnd/css/jquery-ui.css')}}" />
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -19,7 +22,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <!--//fonts-->
     <!-- js -->
-    <script type="text/javascript" src="{{URL::asset('frontEnd/js/jquery.min.js')}}"></script>
+    <script type="text/javascript" src="{{URL::asset('frontEnd/js/jquery.js')}}"></script>
     <!-- js -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="{{URL::asset('frontEnd/js/bootstrap.min.js')}}"></script>
@@ -68,6 +71,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
     <link rel="stylesheet" type="text/css" href="{{URL::asset('frontEnd/css/easy-responsive-tabs.css')}}"/>
     <script src="{{URL::asset('frontEnd/js/easyResponsiveTabs.js')}}"></script>
+    <script src="{{URL::asset('frontEnd/js/jquery-ui.js')}}"></script>
+
 </head>
 <body>
 
